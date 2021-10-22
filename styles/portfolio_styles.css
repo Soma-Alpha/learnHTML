@@ -1,0 +1,40 @@
+body{
+   border: 6px blueviolet solid;
+   padding: 6.25%;
+   margin: auto 12.25%;    
+}
+
+h1{
+    text-align: center;
+    color: darkblue;
+}
+
+h2{
+    color:rgb(128, 139, 240);
+    text-align: left;
+    text-decoration: underline;
+    margin:20px 10px;
+}
+
+img{
+    margin:20px 10px;
+   
+}
+.Pcolor{
+    color:indigo;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    background-color: #1e90d256;
+  }
+  
+  .for_li{
+    display: inline;
+    margin:30px;
+    padding: 20px;
+  }
+
