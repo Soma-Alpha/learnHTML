@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Practice Forms</title>
+   <link rel="stylesheet" href="./styles/portfolio_styles.css">
+</head>
+<body>
+    <div class="form_data">
+        <form action="">
+            <h1>Sign up</h1>
+
+            <label for="first_name">First Name</label>
+            <input type ="text" id="first_name" name="first_name"placeholder="your first name" required><br>
+            
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="last_name" placeholder="your last name" required><br>
+            
+            <label for="user_email">Email:</label>
+            <input type="email" id="user_email" name="user_email" placeholder="abc@xyz.com" required><br>
+            
+            <label for="user_pwd">Password</label>
+            <input type="password" id="user_pwd" name="user_pwd" placeholder="password" required><br>
+            <label for="user_check">Please keep it checked for sign up!</label>
+            <input type="checkbox" id="user_check" name="user_check" checked><br>
+            <span>Share your programming experience</span><br>
+            <label for id="Beginner">Beginner</label>
+            <input type="radio" id="Beginner" name="exp" checked>
+            <label for id="Intermediate">Intermediate</label>
+            <input type="radio" id="Intermediate" name="exp">
+            <label for id="Expert">Expert</label>
+            <input type="radio" id="Expert" name="exp"><br>
+            <label for id="Career_Obj">Desired Career</label><br/>
+            <textarea id="Career_Obj" name="Career_Obj" col="auto" row="auto">Write about your desired career.</textarea><br/>
+                          
+            <button type="submit">Submit</button><br/>
+            <button type="button">
+                <a href="portfolio.html">Back to Home.</a>
+            </button>
+        </form>
+     </div>
+
+</body>
